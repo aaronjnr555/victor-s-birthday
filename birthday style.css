@@ -1,0 +1,90 @@
+body{
+    text-align: center;
+    font-family: Happy Monkey;
+    background: linear-gradient(#a2d2ff,#EFB0C9); 
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@font-face {
+    font-family: Happy Monkey;
+    src: url(happy-monkey/HappyMonkey-Regular.ttf);
+}
+#img-prop{
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid #EFB0C9;
+}
+h1, h2, h3, p, h4{
+    text-shadow: 0px 0px 1px black;
+}
+#bday-age{
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+#bday-dob{
+    margin: 0;
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.gift-section{
+    margin-top: 50px;
+}
+.gift-title{
+    margin-bottom: 20px;
+}
+.gift-hint{
+    margin-bottom: 10px;
+}
+.gift-img{
+    height: 400px;
+    width: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("")
+    background-size: cover;
+    margin: auto;
+}
+#gift-img-happy:hover{
+    background-image: url("naT.gif");
+    background-color: black;
+    background-size: cover;
+}
+#gift-img-hot:hover{
+    background-image: url("dancing\ gif.gif");
+    background-color: black;
+    background-size: cover;
+}
+#gift-img-genius:hover{
+    background-image: url("new folder");
+    background-color: black;
+}
+#gift-img-badass:hover{
+    background-image: url("XwkA.gif");
+    background-color: black;
+}
+#gift-img-cheers{
+    height: 200px;
+}
+#gift-img-cheers:hover{
+    background-image: url("S5r.gif");
+    background-color: black;
+}
+#footer{
+    width: 400px;
+    font-style: italic;
+    margin: 50px auto 30px;
+}
+a{
+    color: white;
+}
